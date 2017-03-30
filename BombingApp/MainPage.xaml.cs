@@ -22,9 +22,48 @@ namespace BombingApp
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private Infantry ukko;
+        private DispatcherTimer gameTimer;
+        private DispatcherTimer ukkoTimer;
+        
+        
         public MainPage()
         {
             this.InitializeComponent();
+
+            // Add ukko
+            ukko = new Infantry
+            {
+                LocationX = myCanvas.Width = 300,
+                LocationY = myCanvas.Height = 100
+            };
+
+            myCanvas.Children.Add(ukko);
+
+            // timer for moving ukko
+            ukkoTimer = new DispatcherTimer();
+            ukkoTimer.Interval = new TimeSpan(0, 0, 0, 0, 10);
+            ukkoTimer.Tick += UkkoTimer_Tick;
+            ukkoTimer.Start();
+
+            // Game loop timer
+            gameTimer = new DispatcherTimer();
+            gameTimer.Interval = new TimeSpan(0, 0, 0, 1000 / 60);
+            gameTimer.Tick += GameTimer_Tick1;
+            gameTimer.Start();
+            
         }
+
+        private void UkkoTimer_Tick(object sender, object e)
+        {
+            ukko.Move();
+        }
+
+        
+        private void GameTimer_Tick1(object sender, object e)
+        {
+            
+        }
+        
     }
 }
