@@ -95,6 +95,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Bomb.xaml.cs">
+      <DependentUpon>Bomb.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Infantry.xaml.cs">
       <DependentUpon>Infantry.xaml</DependentUpon>
     </Compile>
@@ -125,6 +128,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Bomb.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Infantry.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

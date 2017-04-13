@@ -1,5 +1,5 @@
 ﻿<UserControl
-    x:Class="BombingApp.Infantry"
+    x:Class="BombingApp.Bomb"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:BombingApp"
@@ -10,6 +10,7 @@
     d:DesignWidth="400">
 
     <Grid>
-        <Image Source="Assets/flower.png" Width="50" Height="50"/>
+        <Image Source="Assets/flower.png"
+               Width="30" Height="30"/>
     </Grid>
 </UserControl>

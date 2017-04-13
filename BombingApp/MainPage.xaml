@@ -5,66 +5,66 @@
     xmlns:local="using:BombingApp"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d" Width="1002.258">
 
-    <Grid x:Name="myGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid x:Name="myGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,10,298,72">
 
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="300,53,0,0" TextWrapping="Wrap" Text="Bombs:"  VerticalAlignment="Top" FontSize="20"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="554,53,0,0" TextWrapping="Wrap" Text="Missed:" VerticalAlignment="Top" FontSize="20"/>
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="828,53,0,0" TextWrapping="Wrap" Text="Score:" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="19,-2,0,0" TextWrapping="Wrap" Text="Bombs:"  VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="273,-2,0,0" TextWrapping="Wrap" Text="Missed:" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="547,-2,0,0" TextWrapping="Wrap" Text="Score:" VerticalAlignment="Top" FontSize="20"/>
 
-        
 
-        <Grid HorizontalAlignment="Left" Height="100" Margin="300,100,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="300,200,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="300,300,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="300,400,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="300,500,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="300,600,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
 
-        <Grid HorizontalAlignment="Left" Height="100" Margin="400,100,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="400,200,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="400,300,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="400,400,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="400,500,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="400,600,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="0,30,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="0,130,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="0,230,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="0,330,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="0,430,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="0,530,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
 
-        <Grid HorizontalAlignment="Left" Height="100" Margin="500,100,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="500,200,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="500,300,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="500,400,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="500,500,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="500,600,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="100,30,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="100,130,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="100,230,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="100,330,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="100,430,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="100,530,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
 
-        <Grid HorizontalAlignment="Left" Height="100" Margin="600,100,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="600,200,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="600,300,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="600,400,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="600,500,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="600,600,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="200,30,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="200,130,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="200,230,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="200,330,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="200,430,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="200,530,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
 
-        <Grid HorizontalAlignment="Left" Height="100" Margin="700,100,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="700,200,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="700,300,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="700,400,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="700,500,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="700,600,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="300,30,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="300,130,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="300,230,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="300,330,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="300,430,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="300,530,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
 
-        <Grid HorizontalAlignment="Left" Height="100" Margin="800,100,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="800,200,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="800,300,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="800,400,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="800,500,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="800,600,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="400,30,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="400,130,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="400,230,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="400,330,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="400,430,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="400,530,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
 
-        <Grid HorizontalAlignment="Left" Height="100" Margin="900,100,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="900,200,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="900,300,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="900,400,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="900,500,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="100" Margin="900,600,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="500,30,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="500,130,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="500,230,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="500,330,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="500,430,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="500,530,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
 
-        <Canvas x:Name="myCanvas" Width="700" Height="600" Margin="300,100,280,20" />
+        <Grid HorizontalAlignment="Left" Height="100" Margin="600,30,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="600,130,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="600,230,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="600,330,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="600,430,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="100" Margin="600,530,0,0" Background="LightGray" BorderBrush="Aquamarine" BorderThickness="1 1 1 1" VerticalAlignment="Top" Width="100"/>
+
+        <Canvas x:Name="myCanvas" Width="700" Height="600" Margin="0,51,417,111" />
 
 
 
