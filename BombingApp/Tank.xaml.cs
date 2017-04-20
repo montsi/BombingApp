@@ -17,32 +17,28 @@ using Windows.UI.Xaml.Navigation;
 
 namespace BombingApp
 {
-    public sealed partial class Infantry : UserControl
-    {      
+    public sealed partial class Tank : UserControl
+    {
         public double LocationX { get; set; }
         public double LocationY { get; set; }
 
-        public Infantry()
+        public Tank()
         {
             this.InitializeComponent();
-
-            Width = 40;
-            Height = 40;
-            
+            Width = 70;
+            Height = 70;
         }
-        
         public void Move()
-        {           
-            LocationX += 3;
+        {
+            LocationX += 1;
             SetLocation();
         }
-               
+
         public void SetLocation()
         {
             SetValue(Canvas.LeftProperty, LocationX);
             SetValue(Canvas.TopProperty, LocationY);
 
         }
-        
     }
 }

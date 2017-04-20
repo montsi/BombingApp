@@ -29,8 +29,8 @@ namespace BombingApp
         {
             this.InitializeComponent();
 
-            Width = 30;
-            Height = 30;
+            Width = 50;
+            Height = 50;
         }
 
         public void SetLocation()
@@ -38,5 +38,6 @@ namespace BombingApp
             SetValue(Canvas.LeftProperty, LocationX);
             SetValue(Canvas.TopProperty, LocationY);
         }
+
     }
 }
